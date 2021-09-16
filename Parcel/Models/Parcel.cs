@@ -19,8 +19,17 @@ namespace Parcel.Models
       Length = length;
       Height = height;
       Weight = weight;
-
     }
 
+    public int Volume()
+    { 
+      int volume = Width + Length + Height;
+      return volume;
+    }
+
+    public int CostToShip()
+    {
+      
+    }
   }
 }
